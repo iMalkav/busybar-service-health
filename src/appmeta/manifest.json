@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "app.imalkav.service_health",
+  "name": "Service Health",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "author": "iMalkav",
+  "description": "Watch HTTP availability and response times for your services.",
+  "heap_size_kib": 384,
+  "debug": false
+}
