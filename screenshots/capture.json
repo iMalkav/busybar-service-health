@@ -1,0 +1,53 @@
+{
+  "captured_at": "2026-11-05T13:54:07.028760+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.service_health",
+    "name": "Service Health",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "Watch HTTP availability and response times for your services.",
+    "heap_size_kib": 384,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "services": "BUSY=https://busy.app",
+      "refresh_s": 15
+    }
+  },
+  "inputs": [],
+  "data_note": "HTTP status of the public BUSY website; this is a connectivity example.",
+  "fixture": null,
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "375d71753ca2a0483bf698ea8f9c35350ec291ac55ebd18d02babebe565f6a2b",
+      "png_sha256": "011acb8ddba0df4c79faf0c29c6ed9fb6ffb48b99e55edc6e4ff8fcf1ece5539"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "0b67e6d29883a6b0e9a13958256872c90b96d92a851e4c06171764b20d34913c",
+      "png_sha256": "d59fde652eb99736fc5dd96bd66411f3ec65a07603a4962b3f5c827d1174a6c1"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
